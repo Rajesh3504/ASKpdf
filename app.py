@@ -89,8 +89,9 @@ def main():
                 text_chunks = get_text_chunks(raw_text)
                 get_vector_store(text_chunks)
                 st.success("Done")
-    st.write("""<div style="position: fixed; bottom: 10px; right: 10px; color: gray;">Created by Rajesh</div>""", unsafe_allow_html=True)
+    st.write("""<div style="position: fixed; bottom: 100px; right: 10px; color: gray;">Created by Rajesh</div>""", unsafe_allow_html=True)
                 
     
+
 if __name__ == "__main__":
     main()
